@@ -2,14 +2,14 @@
     <div class="nav-logo">
         <i class="pointer fa-solid fa-location-arrow"></i>
 
-        <a href="/">
+        <a href="/begbieinteractions/index.html">
             {{ "Lachlan Begbie • Begbie Interactions" | upcase }}
         </a>
     </div>
 
     <div class="nav-links">
         {% for item in site.data.navigation %}
-            <a href="{{ page.baseurl }}{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
+            <a href="/begbieinteractions{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
                 {{ item.name | upcase }}
             </a>
         {% endfor %}

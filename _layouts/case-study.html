@@ -1,32 +1,29 @@
----
----
+<!DOCTYPE html>
 
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
 
-  <link rel="stylesheet" href="{{ page.baseurl }}assets/css/reset.css">
-  <link rel="stylesheet" href="{{ page.baseurl }}assets/css/styles.css">
+        <link rel="stylesheet" href="{{ page.baseurl }}assets/css/reset.css">
+        <link rel="stylesheet" href="{{ page.baseurl }}assets/css/styles.css">
 
-  <script src="https://kit.fontawesome.com/852736490e.js" crossorigin="anonymous"></script>
-</head>
+        <script src="https://kit.fontawesome.com/852736490e.js" crossorigin="anonymous"></script>
+    </head>
 
-<body>
-  {% include navigation.html %}
-  
-  <div class="case-study">
-    <img src="{{ page.baseurl }}assets/images/{{ post.cover }}" alt="Large cover image of {{ page.title }} project work.">
+    <body>
+        {% include navigation.html %}
+        
+        <div class="case-study">
+            <img src="{{ page.baseurl }}assets/images/{{ post.cover }}" alt="Large cover image of {{ page.title }} project work.">
 
-    <h1>{{ page.title }}</h1>
+            <h1>{{ page.title }}</h1>
 
-    <p>
-      {{ page.date | date_to_string }}
-      {% assign author = site.authors | where: 'short_name', page.author | first %}
-      {% if author %}
-        - <a href="{{ author.url }}">{{ author.name }}</a>
-      {% endif %}
-    </p>
+            <h2>
+                {{ page.date | date_to_string }}
+            </h2>
 
-    {{ content }}
-  </div>
-</body>
+            {{ content }}
+        </div>
+    </body>
+</html>

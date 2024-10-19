@@ -99,9 +99,14 @@ h2 {
 
 /* Portfolio Content */
 
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+}
+
 .portfolio-work {
-    width: 50%;
-    margin: 0 25%;
+    max-width: 52em;
+    margin: 0 10em;
     
     display: grid;
     gap: 2em;
