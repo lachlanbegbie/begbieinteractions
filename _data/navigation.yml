@@ -1,0 +1,6 @@
+- name: About
+  link: /about.md
+- name: Work
+  link: /work.md
+- name: Contact
+  link: /contact.md

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+:root {
+    --lrb-darkblue: #292633;
+    --lrb-white: #ffffff;
+    --lrb-lightgray: #f5f6fa;
+    --lrb-darkgray: #505153;
+    --lrb-blue: #66beff;
+    --lrb-purple: #8c56a8;
+}
+
+body {
+    background-color: var(--lrb-darkblue);
+    color: var(--lrb-lightgray);
+
+    font-size: 16px;
+
+    /* padding: 2em; */
+}
+
+a {
+    color: var(--lrb-lightgray);
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Tilt Warp", sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Tilt Warp", sans-serif;
+    font-size: 2.5em;
+}
+
+
+/* SCSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    /* height: 3em;*/
+    /* background-color: #dddddd;*/
+    color: var(--lrb-white);
+    align-items: center;
+
+    padding: 2em;
+}
+
+.navbar a {
+    font-family: "Tilt Warp", sans-serif;
+    font-weight: 100!important;
+    font-size: 1.7em;
+    letter-spacing: 0.1em;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.nav-logo a {
+    padding-left: 1em;
+}
+
+.nav-links a {
+    margin-right: 1.5em;
+}
+
+.pointer {
+    font-size: 2.5em;
+    rotate: -21deg;
+    padding-top: 0.2em;
+    color: var(--lrb-blue);
+}
+
+.current {
+    color: var(--lrb-blue);
+}
+
+
+/* Homepage */
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 5em 0em;
+}
+
+.heroicon {
+    width: 40%;
+}
+
+.intro-content {
+    width: 52%;
+}
+
+/* Portfolio Content */
+
+.portfolio-work {
+    width: 50%;
+    margin: 0 25%;
+    
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portfolio-work li {
+    padding: 1em;
+
+    background-color: var(--lrb-darkgray);
+}
+
+.work-hero {
+    grid-column: 1 / span 2;
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coverimg {
+    width: 100%;
+}
+
+
+/* Case Study */
+
+.case-study {
+    width: 60%;
+    padding: 0 20%;
+}

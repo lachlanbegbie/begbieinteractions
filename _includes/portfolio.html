@@ -1,0 +1,29 @@
+<ul class="portfolio-work">
+    {% for post in site.posts %}
+        {% if post.priority == "hero" %}
+            <li class="work-hero"><a href="{{ post.url }}">
+                <img src="{{ page.baseurl }}assets/images/{{ post.cover }}" alt="" class="coverimg">
+                <h1>{{ post.title }}</h1>
+                <div class="item-details">
+                    <h3>{{ post.client }}</h3>
+                    <h3>{{ post.date | date: "%b %d, %Y" }}</h3>
+                </div>
+                {{ post.excerpt }}
+            </a></li>
+        {% endif %}
+    {% endfor %}
+
+    {% for post in site.posts %}
+        {% if post.priority == "content" %}
+            <li class="work-item"><a href="{{ post.url }}">
+                <img src="{{ page.baseurl }}assets/images/{{ post.cover }}" alt="" class="coverimg">
+                <h2>{{ post.title }}</h2>
+                <div class="item-details">
+                    <h3>{{ post.client }}</h3>
+                    <h3>{{ post.date | date: "%b %d, %Y" }}</h3>
+                </div>
+                {{ post.excerpt }}
+            </a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
