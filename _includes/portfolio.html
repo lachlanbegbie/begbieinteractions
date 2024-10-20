@@ -2,7 +2,7 @@
     <ul class="portfolio-work">
         {% for post in site.posts %}
             {% if post.priority == "hero" %}
-                <li class="work-hero"><a href="{{ post.url }}">
+                <li class="work-hero"><a href=".{{ post.url }}">
                     <img src="{{ page.baseurl }}assets/images/{{ post.cover }}" alt="" class="coverimg">
                     <h1>{{ post.title }}</h1>
                     <div class="item-details">
@@ -16,7 +16,7 @@
     
         {% for post in site.posts %}
             {% if post.priority == "content" %}
-                <li class="work-item"><a href="{{ post.url }}">
+                <li class="work-item"><a href=".{{ post.url }}">
                     <img src="{{ page.baseurl }}assets/images/{{ post.cover }}" alt="" class="coverimg">
                     <h2>{{ post.title }}</h2>
                     <div class="item-details">
