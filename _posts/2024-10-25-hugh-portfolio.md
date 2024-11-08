@@ -1,10 +1,10 @@
 ---
 layout: case-study
-title: Hugh Begbie Photography Portfolio
+title: Photographer Portfolio Website
 client: UC Faculty of Arts and Design
 date: October 2024
 cover: LachlanBegbie_PhotographyPortfolio.jpg
-priority: hero
+priority: content
 keywords: UI/UX, Prototyping, Programming, Curation, Education
 ---
 

@@ -3,14 +3,12 @@ layout: default
 title: Lachlan Begbie • Begbie Interactions
 ---
 
-<div class="intro">
-    <img src="{{ page.baseurl }}assets/images/heroicon.svg" class="heroicon">
-    
+<div class="intro">    
     <div class="intro-content">
-        <h1>{{ "Line 1 Text" }}</h1>
-        <h2>{{ "Line 2 Text goes here" | downcase }}</h2>
+        <h1>{{ "Lachlan Begbie" }}</h1>
+        <h2>{{ "Design Portfolio" | upcase }}</h2>
     
-        <p>{{ "My name is Lachlan, and I am a UI and UX designer based in Canberra, Australia. Add some other description here." }}</p>
+        <p>{{ "Hi! I’m Lachlan Begbie, an Interaction Designer currently based in Canberra. I have experience in UX and web development, and have interests in user psychology, web interactions and the display of online collections." }}</p>
     </div>
 </div>
 

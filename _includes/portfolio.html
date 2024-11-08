@@ -1,29 +1,31 @@
+<h1 class="page-title">Portfolio of Work</h1>
+
 <div class="portfolio-container">
     <ul class="portfolio-work">
         {% for post in site.posts %}
             {% if post.priority == "hero" %}
-                <li class="work-hero"><a href=".{{ post.url }}">
+                <li class="work-hero item"><a href=".{{ post.url }}">
                     <img src="{{ page.baseurl }}assets/images/{{ post.cover }}" alt="" class="coverimg">
-                    <h1>{{ post.title }}</h1>
+                    <h1 class="post-title">{{ post.title }}</h1>
                     <div class="item-details">
                         <h3>{{ post.client }}</h3>
-                        <h3>{{ post.date | date: "%b %Y" }}</h3>
+                        <h3 class="date">{{ post.date | date: "%b %Y" }}</h3>
                     </div>
-                    {{ post.excerpt }}
+                    <p class="post-excerpt">{{ post.excerpt }}</p>
                 </a></li>
             {% endif %}
         {% endfor %}
     
         {% for post in site.posts %}
             {% if post.priority == "content" %}
-                <li class="work-item"><a href=".{{ post.url }}">
+                <li class="work-item item"><a href=".{{ post.url }}">
                     <img src="{{ page.baseurl }}assets/images/{{ post.cover }}" alt="" class="coverimg">
-                    <h2>{{ post.title }}</h2>
+                    <h2 class="post-title">{{ post.title }}</h2>
                     <div class="item-details">
                         <h3>{{ post.client }}</h3>
-                        <h3>{{ post.date | date: "%b %Y" }}</h3>
+                        <h3 class="date">{{ post.date | date: "%b %Y" }}</h3>
                     </div>
-                    {{ post.excerpt }}
+                    <p class="post-excerpt">{{ post.excerpt }}</p>
                 </a></li>
             {% endif %}
         {% endfor %}
