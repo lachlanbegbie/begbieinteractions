@@ -14,9 +14,11 @@
     <body>
         {% include navigation.html %}
         
-        <div class="case-study">
-            <img src="/begbieinteractions/assets/images/{{ post.cover }}" alt="Large cover image of {{ page.title }} project work.">
+        <div class="art-cover">
+            <img src="/begbieinteractions/assets/images/{{ page.cover }}" alt="Large cover image of {{ page.title }} project work.">
+        </div>
 
+        <div class="case-study">
             <h1>{{ page.title }}</h1>
 
             <h2>
@@ -25,5 +27,7 @@
 
             {{ content }}
         </div>
+
+        {% include footer.html %}
     </body>
 </html>

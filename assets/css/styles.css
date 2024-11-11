@@ -123,7 +123,7 @@ h2 {
     font-family: "Questrial", sans-serif;
     font-weight: 100;
     font-size: 1.2em;
-    line-height: 1.2;
+    line-height: 1.6;
 }
 
 /* Portfolio Content */
@@ -134,7 +134,7 @@ h2 {
 }
 
 .portfolio-work {
-    max-width: 52em;
+    max-width: 55em;
     margin: 0 10em;
     
     display: grid;
@@ -190,6 +190,69 @@ h2 {
     padding: 0 20%;
 }
 
+.art-cover {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--lrb-white);
+
+    margin-bottom: 3em;
+}
+
+.art-cover img {
+    width: 70%;
+}
+
+.case-study h2 {
+    padding: 0.5em 0em;
+}
+
+.case-study h3 {
+    font-family: "Tilt Warp", sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+
+    padding: 0.5em 0em;
+    /* padding-left: 1em; */
+}
+
+.case-study h4 {
+    font-family: "Tilt Warp", sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+
+    padding: 0.5em 0em;
+    /* padding-left: 2em; */
+}
+
+.case-study p {
+    font-family: "Questrial", sans-serif;
+    font-weight: 100;
+    line-height: 1.4;
+    font-size: 1.2em;
+
+    padding: 0.5em 0em;
+}
+
+.case-study img {
+    max-height: 20em;
+    max-width: 47%;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.img-gallery {
+    display: flex;
+}
+
+.case-study a {
+    text-decoration: underline;
+    color: var(--lrb-blue);
+}
 
 /* Footer */
 

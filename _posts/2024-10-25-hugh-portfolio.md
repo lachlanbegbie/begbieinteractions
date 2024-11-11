@@ -3,18 +3,20 @@ layout: case-study
 title: Photographer Portfolio Website
 client: UC Faculty of Arts and Design
 date: October 2024
-cover: LachlanBegbie_PhotographyPortfolio.jpg
+cover: hugh-portfolio-cover.jpg
 priority: content
 keywords: UI/UX, Prototyping, Programming, Curation, Education
 ---
 
-As a final major design project for my Bachelor of Design (Interaction Design), I chose to create a web-based portfolio for a fictional client, represented by Hugh Begbie. This project was not restricted in scope or content, so I pursued my interests in web curation and UX design, and applied them to the technical skills I had developed over the three years of my degree.
+As a final major design project for my Bachelor of Design (Interaction Design), I chose to create a web-based portfolio for a fictional client, represented by Hugh Begbie.
+
+This project was not restricted in scope or content, so I pursued my interests in web curation and UX design, and applied them to the technical skills I had developed over the three years of my degree.
 
 ## Problem
 
-Nearly all FADx promotional materials are redeveloped yearly. the task presented was to design a website which matched the newly developed visual style, and provided a contribution which was differentiated from other promotional mediums.
+Nearly all FADx promotional materials are redeveloped yearly. The task presented was to design a website which matched the newly developed visual style, and provided a contribution which was differentiated from other promotional mediums.
 
-A FADx website had previously been developed, but was an example of a disproportional scope. Built during COVID, when an in-person event could not be run, the site sought to display information on every graduating student, which massively increased the scope and cost of the project. The solution we developed would seek to prevent his issue by limiting its scope.
+A FADx website had previously been developed, but was an example of a disproportional scope. Built during COVID, when an in-person event could not be run, the site sought to display information on every graduating student, which massively increased the scope and cost of the project. The solution we developed would seek to prevent this issue by limiting its scope.
 
 ## Solution
 
@@ -26,17 +28,24 @@ With freedom to include the features we deemed beneficial, we settled on the mos
 
 #### Low and High Fidelity Prototypes
 
-![alt text](address.ext "Title")
+<span class="img-gallery">
+
+![Figma Prototype](/begbieinteractions/assets/images/fadx-intimg-1.png "Figma Prototype")
 
 In communication with other FADx development teams, we developed prototypes using Figma, to outline a visual style and layout for the site.
 
 ### Product
 
-![alt text](address.ext "Title")
+<span class="img-gallery">
+
+![FADx Website Screenshot 1](/begbieinteractions/assets/images/fadx-intimg-2.png "FADx Website Screenshot 1")
+![FADx Website Screenshot 2](/begbieinteractions/assets/images/fadx-intimg-3.png "FADx Website Screenshot 2")
+![FADx Website Screenshot 3](/begbieinteractions/assets/images/fadx-intimg-4.png "FADx Website Screenshot 3")
+![FADx Website Screenshot 4](/begbieinteractions/assets/images/fadx-intimg-5.png "FADx Website Screenshot 4")
 
 Based on the high fidelity prototype, we programmed the website using HTML, CSS and JavaScript. The relevant data was stored in a JSON file and insterted into the site through JavaScript functions.
 
-The site went live to [uxfadx2024.com.au](https://uxfadx2024.com.au) on 13th October 2024, and was updated through to the in-person event on 13th-15th November 2024.
+The site went live to <a href="https://fadx2024.viscomm.design" target="_blank">fadx2024.viscomm.design</a> on 13th October 2024, and was updated through to the in-person event on 13th-15th November 2024.
 
 ## Conclusion
 
