@@ -2,7 +2,7 @@
 layout: case-study
 title: Photographer Portfolio Website
 client: UC Faculty of Arts and Design
-date: October 2024
+date: 25 October 2024
 cover: hugh-portfolio-cover.jpg
 priority: content
 keywords: UI/UX, Prototyping, Programming, Curation, Education
@@ -18,7 +18,20 @@ Nearly all FADx promotional materials are redeveloped yearly. The task presented
 
 A FADx website had previously been developed, but was an example of a disproportional scope. Built during COVID, when an in-person event could not be run, the site sought to display information on every graduating student, which massively increased the scope and cost of the project. The solution we developed would seek to prevent this issue by limiting its scope.
 
-## Solution
+## Product
+
+A test deployment of the site is available at <a href="https://lachlanbegbie.github.io/photography_portfolio/" target="_blank">lachlanbegbie.github.io/photography_portfolio/</a>.
+
+<span class="img-gallery">
+
+![Photographer Website Screenshot 1](/begbieinteractions/assets/images/hugh-portfolio-intimg-2.png "Photographer Website Screenshot 1")
+![Photographer Website Screenshot 2](/begbieinteractions/assets/images/hugh-portfolio-intimg-3.png "Photographer Website Screenshot 2")
+![Photographer Website Screenshot 3](/begbieinteractions/assets/images/hugh-portfolio-intimg-4.png "Photographer Website Screenshot 3")
+![Photographer Website Screenshot 4](/begbieinteractions/assets/images/hugh-portfolio-intimg-5.png "Photographer Website Screenshot 4")
+![Photographer Website Screenshot 5](/begbieinteractions/assets/images/hugh-portfolio-intimg-6.png "Photographer Website Screenshot 5")
+![Photographer Website Screenshot 6](/begbieinteractions/assets/images/hugh-portfolio-intimg-7.png "Photographer Website Screenshot 6")
+
+<!-- ## Solution
 
 ### Ideation
 
@@ -38,17 +51,17 @@ In communication with other FADx development teams, we developed prototypes usin
 
 <span class="img-gallery">
 
-![FADx Website Screenshot 1](/begbieinteractions/assets/images/fadx-intimg-2.png "FADx Website Screenshot 1")
-![FADx Website Screenshot 2](/begbieinteractions/assets/images/fadx-intimg-3.png "FADx Website Screenshot 2")
-![FADx Website Screenshot 3](/begbieinteractions/assets/images/fadx-intimg-4.png "FADx Website Screenshot 3")
-![FADx Website Screenshot 4](/begbieinteractions/assets/images/fadx-intimg-5.png "FADx Website Screenshot 4")
+![Photographer Website Screenshot 1](/begbieinteractions/assets/images/fadx-intimg-2.png "Photographer Website Screenshot 1")
+![Photographer Website Screenshot 2](/begbieinteractions/assets/images/fadx-intimg-3.png "Photographer Website Screenshot 2")
+![Photographer Website Screenshot 3](/begbieinteractions/assets/images/fadx-intimg-4.png "Photographer Website Screenshot 3")
+![Photographer Website Screenshot 4](/begbieinteractions/assets/images/fadx-intimg-5.png "Photographer Website Screenshot 4")
 
-Based on the high fidelity prototype, we programmed the website using HTML, CSS and JavaScript. The relevant data was stored in a JSON file and insterted into the site through JavaScript functions.
+I programmed the website using HTML, CSS and JavaScript. The relevant data was stored in a JSON file and insterted into the site through JavaScript API techniques. The style of the site evolved through communication with the client, and much applicable feedback was provided.
 
-The site went live to <a href="https://fadx2024.viscomm.design" target="_blank">fadx2024.viscomm.design</a> on 13th October 2024, and was updated through to the in-person event on 13th-15th November 2024.
+A test deployment of the site is available at <a href="https://lachlanbegbie.github.io/photography_portfolio/" target="_blank">lachlanbegbie.github.io/photography_portfolio/</a>.
 
 ## Conclusion
 
-On reflection, the final product produced worked successfully to the intended extent.
+This project served as intended, to consolidate the knowledge I have learned over the course of my degree. I have a general idea now of what I can do, and am more aware of my limitations.
 
-There were more suitable ways to store and display the data, which would have helped make the site maintainable if needed again in future years. These methods were out of our reach in the time frame for development, but could be considered in future iterations of the product.
+Even over the last 6 months I have learned new techniques which would have benefited this project -->
