@@ -290,6 +290,11 @@ footer h6 {
         font-size: 14px;
     }
     
+    .intro, .navbar {
+        font-size: 1.1em;
+    }
+
+
     .navbar {
         display: flex;
         flex-direction: column;
@@ -328,6 +333,10 @@ footer h6 {
 @media screen and (max-width: 834px) {
     body {
         font-size: 12px;
+    }
+
+    .intro, .navbar {
+        font-size: 1.3em;
     }
 
     .intro {
