@@ -152,6 +152,11 @@ h2 {
     grid-column: 1 / span 2;
 }
 
+.work-content {
+    grid-column: 1 / span 1;
+    hyphens: manual;
+}
+
 .item-details {
     display: flex;
     justify-content: space-between;
@@ -278,4 +283,51 @@ footer .social-icons * {
 footer h6 {
     font-size: 0.7em;
     margin-left: 1em;
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1260px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    
+        /* height: 3em;*/
+        /* background-color: #dddddd;*/
+        color: var(--lrb-white);
+        align-items: center;
+    
+        padding: 2em;
+    }
+
+    .navbar * {
+        padding-bottom: 0.5em;
+    }
+
+    .intro-content {    
+        padding: 8em 5em 0em 35dvw;
+    
+        background-image: url(../images/heroicon.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .intro-text {
+        padding: 1em;
+        background-color: #292633bb;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .intro-content {    
+        padding: 8em 5em 0em 5em;
+    
+        background-image: url(../images/heroicon.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
