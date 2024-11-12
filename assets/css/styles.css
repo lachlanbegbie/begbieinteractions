@@ -312,6 +312,10 @@ footer h6 {
         padding-bottom: 0.5em;
     }
 
+    .nav-links a:last-of-type {
+        margin-right: 0;
+    }
+
     .intro-content {    
         padding: 8em 5em 0em 35dvw;
     
@@ -332,7 +336,7 @@ footer h6 {
 
 @media screen and (max-width: 834px) {
     body {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .intro, .navbar {
