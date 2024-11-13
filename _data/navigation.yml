@@ -1,5 +1,5 @@
-- name: About
-  link: /about.html
+# - name: About
+#   link: /about.html
 - name: Work
   link: /work.html
 - name: Contact

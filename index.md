@@ -15,5 +15,3 @@ title: Lachlan Begbie • Begbie Interactions
 </div>
 
 {% include portfolio.html %}
-
-{% include footer.html %}

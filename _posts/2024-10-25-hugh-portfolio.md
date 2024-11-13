@@ -14,15 +14,13 @@ This project was not restricted in scope or content, so I pursued my interests i
 
 ## Problem
 
-Nearly all FADx promotional materials are redeveloped yearly. The task presented was to design a website which matched the newly developed visual style, and provided a contribution which was differentiated from other promotional mediums.
+The main problems which I aimed to challenge in this project were the consideration of a client's needs, visually and functionally, and the manageable display of collection items.
 
-A FADx website had previously been developed, but was an example of a disproportional scope. Built during COVID, when an in-person event could not be run, the site sought to display information on every graduating student, which massively increased the scope and cost of the project. The solution we developed would seek to prevent this issue by limiting its scope.
+I focused on two areas to manage this project - the first was how the site may be used. I needed it to be an image gallery, but it should also act as a promotional material for the client, and so should include a personal bio, services available, and contact information as well. The second area to focus on was the back-end usability. It should dynamically respond to the data it is given, so that any new image or collection could be added without rewriting any code.
 
 ## Product
 
 A test deployment of the site is available at <a href="https://lachlanbegbie.github.io/photography_portfolio/" target="_blank">lachlanbegbie.github.io/photography_portfolio/</a>.
-
-<span class="img-gallery">
 
 ![Photographer Website Screenshot 1](/begbieinteractions/assets/images/hugh-portfolio-intimg-2.png "Photographer Website Screenshot 1")
 ![Photographer Website Screenshot 2](/begbieinteractions/assets/images/hugh-portfolio-intimg-3.png "Photographer Website Screenshot 2")
